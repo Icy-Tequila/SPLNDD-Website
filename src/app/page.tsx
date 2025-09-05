@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import ServiceCarousel from "../components/service-carousel";
+import NewArrivals from "../components/new-arrivals";
 
 export default function Homepage() {
   return (
-    <div className="p-[1rem] min-h-[100dvh]">
-      <section
+    <div className="p-[1.5rem] min-h-[100dvh]">
+      <nav
         id="intro-section"
         className="w-full h-auto flex justify-center mt-[1rem]"
       >
@@ -57,7 +59,9 @@ export default function Homepage() {
             className="moveFromRight min-w-[10px] max-w-[35rem] h-auto"
           />
         </div>
-      </section>
+      </nav>
+      <ServiceCarousel />
+      <NewArrivals />
     </div>
   );
 }
