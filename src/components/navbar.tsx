@@ -115,25 +115,25 @@ const Navbar = () => {
         href="/"
         className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0"
       >
-          {/* Desktop Logo */}
-  <Image
-    src="/Images/splndd-logo-2.png"
-    alt="SPLND'D Logo"
-    width={120}
-    height={40}
-    className="hidden lg:block h-[70%] cursor-pointer"
-    priority
-  />
+        {/* Desktop Logo */}
+        <Image
+          src="/images/splndd-logo-2.png"
+          alt="SPLND'D Logo"
+          width={120}
+          height={40}
+          className="hidden lg:block h-[70%] cursor-pointer"
+          priority
+        />
 
-  {/* Mobile Logo */}
-  <Image
-    src="/Images/splndd-logo.png"
-    alt="SPLND'D Logo Mobile"
-    width={80}
-    height={30}
-    className="block lg:hidden h-[70%] cursor-pointer"
-    priority
-  />
+        {/* Mobile Logo */}
+        <Image
+          src="/images/splndd-logo.png"
+          alt="SPLND'D Logo Mobile"
+          width={80}
+          height={30}
+          className="block lg:hidden h-[70%] cursor-pointer"
+          priority
+        />
       </Link>
 
       {/* ---- Desktop Navigation ---- */}
@@ -141,7 +141,7 @@ const Navbar = () => {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="font-normal gap-2 mr-[-8px] bg-transparent hover:bg-transparent focus:bg-transparent cursor-pointer hover:text-[#c3881c] data-[state=open]:text-[#c3881c]">
+              <NavigationMenuTrigger className="font-normal gap-2 mr-[-8px] bg-transparent hover:bg-transparent focus:bg-transparent cursor-pointer hover:text-[#c3881c] data-[state=open]:text-[#c3881c] data-[state=open]:bg-transparent!">
                 WOMEN&apos;S
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -167,7 +167,7 @@ const Navbar = () => {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="pr-5 font-normal gap-2 bg-transparent hover:bg-transparent focus:bg-transparent cursor-pointer hover:text-[#c3881c] data-[state=open]:text-[#c3881c]">
+              <NavigationMenuTrigger className="pr-5 font-normal gap-2 bg-transparent hover:bg-transparent focus:bg-transparent cursor-pointer hover:text-[#c3881c] data-[state=open]:text-[#c3881c] data-[state=open]:bg-transparent!">
                 MEN&apos;S
               </NavigationMenuTrigger>
               <NavigationMenuContent>

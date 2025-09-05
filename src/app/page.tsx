@@ -24,7 +24,7 @@ export default function Homepage() {
 
           <div
             id="intro-LC"
-            className="moveFromLeft min-w-[15rem] lg:max-w-[25rem] flex flex-col justify-center items-center lg:items-start lg:mr-[-4rem] mt-10 lg:mt-0 px-10 lg:px-0"
+            className="moveFromLeft min-w-[15rem] lg:max-w-[30rem] flex flex-col justify-center items-center lg:items-start lg:mr-[-4rem] mt-10 lg:mt-0 px-10 lg:px-0"
           >
             {/* Desktop intro text */}
             <Image
@@ -54,7 +54,7 @@ export default function Homepage() {
             alt="Intro Image"
             width={600}
             height={600}
-            className="moveFromRight min-w-[10px] max-w-[30rem] h-auto"
+            className="moveFromRight min-w-[10px] max-w-[35rem] h-auto"
           />
         </div>
       </section>
